@@ -1,0 +1,228 @@
+[
+    {
+      "timestamp": "2024-11-01 10:00:00",
+      "source": "SystemMonitor-001",
+      "message": "System startup complete."
+    },
+    {
+      "timestamp": "2024-11-01 10:05:30",
+      "source": "AuthServer-0033",
+      "message": "User 'admin' logged in successfully."
+    },
+    {
+      "timestamp": "2024-11-01 10:25:00",
+      "source": "Router-1234",
+      "message": "Connection attempt from 192.168.1.2 blocked due to high traffic volume."
+    },
+    {
+      "timestamp": "2024-11-01 10:25:01",
+      "source": "Router-1234",
+      "message": "500 connections from IP 198.51.100.23 detected in 1 second. Possible SYN flood."
+    },
+    {
+      "timestamp": "2024-11-01 10:30:00",
+      "source": "Database-0011",
+      "message": "Database backup completed successfully."
+    },
+    {
+      "timestamp": "2024-11-01 10:35:00",
+      "source": "WebServer-7890",
+      "message": "Regular request processed successfully."
+    },
+    {
+      "timestamp": "2024-11-02 14:15:22",
+      "source": "WebServer-7890",
+      "message": "Suspicious query detected: SELECT * FROM users WHERE username = '' OR '1'='1'."
+    },
+    {
+      "timestamp": "2024-11-02 14:20:00",
+      "source": "MailServer-4321",
+      "message": "Email from user@example.com sent successfully."
+    },
+    {
+      "timestamp": "2024-11-02 14:15:30",
+      "source": "Database-0011",
+      "message": "Unauthorized access attempt: INSERT INTO admin_users VALUES ('hacker', 'password')."
+    },
+    {
+      "timestamp": "2024-11-02 14:30:00",
+      "source": "WebServer-7890",
+      "message": "5 consecutive failed login attempts from IP 172.16.0.55."
+    },
+    {
+      "timestamp": "2024-11-03 09:30:10",
+      "source": "MailServer-4321",
+      "message": "Email flagged: Subject: 'Urgent: Update Your Account' from phishing@fakebank.com."
+    },
+    {
+      "timestamp": "2024-11-03 09:35:20",
+      "source": "MailServer-4321",
+      "message": "Regular spam email detected and moved to spam folder."
+    },
+    {
+      "timestamp": "2024-11-03 09:30:12",
+      "source": "MailServer-4321",
+      "message": "Malicious link detected in email: http://192.0.2.99/update."
+    },
+    {
+      "timestamp": "2024-11-03 10:00:00",
+      "source": "Firewall-5678",
+      "message": "New rule added to block IP 192.168.0.254."
+    },
+    {
+      "timestamp": "2024-11-04 11:05:00",
+      "source": "Firewall-5678",
+      "message": "Multiple connections from IP 198.18.1.100 to sequential ports detected."
+    },
+    {
+      "timestamp": "2024-11-04 11:05:30",
+      "source": "Firewall-5678",
+      "message": "Connection from IP 198.18.1.100 blocked after unusual activity."
+    },
+    {
+      "timestamp": "2024-11-04 11:30:00",
+      "source": "IDS-2020",
+      "message": "Port scan flagged: 65 open ports identified on 203.0.113.88."
+    },
+    {
+      "timestamp": "2024-11-05 08:00:10",
+      "source": "AuthServer-0033",
+      "message": "50 failed login attempts for user 'admin' from IP 10.0.0.99 in 2 minutes."
+    },
+    {
+      "timestamp": "2024-11-05 08:10:00",
+      "source": "AuthServer-0033",
+      "message": "User 'guest' locked due to multiple incorrect passwords."
+    },
+    {
+      "timestamp": "2024-11-05 09:00:00",
+      "source": "Database-0011",
+      "message": "Data query completed: SELECT COUNT(*) FROM transactions WHERE amount > 10000."
+    },
+    {
+      "timestamp": "2024-11-05 09:30:00",
+      "source": "SystemMonitor-001",
+      "message": "Scheduled system backup initiated."
+    },
+    {
+      "timestamp": "2024-11-05 10:00:00",
+      "source": "Firewall-5678",
+      "message": "Unusual outbound traffic detected to IP 203.0.113.45."
+    },
+    {
+      "timestamp": "2024-11-05 10:15:00",
+      "source": "IDS-2020",
+      "message": "Potential data exfiltration attempt flagged for analysis."
+    },
+    {
+      "timestamp": "2024-11-06 11:00:00",
+      "source": "SystemMonitor-001",
+      "message": "System update completed successfully."
+    },
+    {
+      "timestamp": "2024-11-06 11:30:00",
+      "source": "AuthServer-0033",
+      "message": "Admin privileges granted to user 'ITSupport'."
+    },
+    
+    {
+        "timestamp": "2024-11-06 12:00:00",
+        "source": "WebServer-7890",
+        "message": "New user registered with username 'john_doe'."
+    },
+    {
+        "timestamp": "2024-11-06 12:15:00",
+        "source": "Database-0011",
+        "message": "Query executed: UPDATE user_profiles SET last_login = '2024-11-06' WHERE user_id = 1023."
+    },
+    {
+        "timestamp": "2024-11-06 12:30:00",
+        "source": "AuthServer-0033",
+        "message": "Unusual login detected from IP 172.16.0.101. MFA challenge issued."
+    },
+    {
+        "timestamp": "2024-11-06 12:45:00",
+        "source": "MailServer-4321",
+        "message": "Email delivery failed: recipient not found for email sent to fake_user@domain.com."
+    },
+    {
+        "timestamp": "2024-11-06 13:00:00",
+        "source": "Router-1234",
+        "message": "Packet loss detected on connection to IP 203.0.113.56."
+    },
+    {
+        "timestamp": "2024-11-06 13:15:00",
+        "source": "SystemMonitor-001",
+        "message": "High CPU usage detected: 95% on server 'DataNode-01'."
+    },
+    {
+        "timestamp": "2024-11-06 13:30:00",
+        "source": "Firewall-5678",
+        "message": "IP 198.51.100.27 temporarily blacklisted after 10 failed access attempts."
+    },
+    {
+        "timestamp": "2024-11-06 14:00:00",
+        "source": "IDS-2020",
+        "message": "Anomaly detected: traffic spike on port 22 from IP 10.0.0.254."
+    },
+    {
+        "timestamp": "2024-11-06 14:30:00",
+        "source": "WebServer-7890",
+        "message": "Resource '/secure/data.zip' accessed by user 'admin'."
+    },
+    {
+        "timestamp": "2024-11-06 15:00:00",
+        "source": "AuthServer-0033",
+        "message": "Password change requested for user 'jane_doe'."
+    },
+    {
+        "timestamp": "2024-11-06 15:30:00",
+        "source": "SystemMonitor-001",
+        "message": "System memory usage returned to normal levels."
+    },
+    {
+        "timestamp": "2024-11-06 16:00:00",
+        "source": "Router-1234",
+        "message": "Connection restored to IP 192.168.0.10 after downtime."
+    },
+    {
+        "timestamp": "2024-11-06 16:30:00",
+        "source": "Firewall-5678",
+        "message": "Suspicious outbound traffic blocked to IP 198.18.1.1 on port 443."
+    },
+    {
+        "timestamp": "2024-11-06 17:00:00",
+        "source": "MailServer-4321",
+        "message": "Spam email detected and quarantined: Subject 'Free Money Now!'"
+    },
+    {
+        "timestamp": "2024-11-06 17:30:00",
+        "source": "WebServer-7890",
+        "message": "Session timeout for user 'guest' after 15 minutes of inactivity."
+    },
+    {
+        "timestamp": "2024-11-06 18:00:00",
+        "source": "AuthServer-0033",
+        "message": "Account 'temp_user' disabled due to policy violation."
+    },
+    {
+        "timestamp": "2024-11-06 18:30:00",
+        "source": "IDS-2020",
+        "message": "Scan detected: 1500 requests to IP 192.168.1.1 in 30 seconds."
+    },
+    {
+        "timestamp": "2024-11-06 19:00:00",
+        "source": "SystemMonitor-001",
+        "message": "Disk usage warning: 85% used on volume '/mnt/data'."
+    },
+    {
+        "timestamp": "2024-11-06 19:30:00",
+        "source": "Firewall-5678",
+        "message": "Connection attempt blocked from blacklisted IP 203.0.113.99."
+    },
+    {
+        "timestamp": "2024-11-06 20:00:00",
+        "source": "WebServer-7890",
+        "message": "Unexpected error: NullPointerException at line 42 in 'UserSession.java'."
+    }
+]
